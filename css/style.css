@@ -59,3 +59,65 @@ body {
 /* ================================= */
 /* ================================= */
 /* ================================= */
+.footer {
+    background-color: #151515;
+    color: #fff;
+    padding: 50px 0 32px;
+}
+.container {
+}
+.footer__body {
+}
+.footer-menu__menu {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.footer-menu__item {
+    max-width: 270px;
+}
+.footer-menu__list + .footer-menu__list {
+    padding-top: 20px;
+}
+.footer-menu__title {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.footer-menu__link {
+}
+
+
+.footer-app__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+.footer-app__Item {
+}
+.footer-app__link {
+}
+.footer-app__img {
+}
+
+
+.footer-copy__copy {
+    max-width: 806px;
+    margin: 0 auto 30px;
+    text-align: center;
+}
+.footer-copy__text {
+}
+
+
+.copy-list__list {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.copy-list__item {
+}
+.copy-list__link {
+}
