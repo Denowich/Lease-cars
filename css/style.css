@@ -55,6 +55,30 @@ body {
     text-decoration: underline;
 }
 /* ================================= */
+.main {
+    flex-grow: 1;
+}
+.top {
+    padding-top: 105px;
+    text-align: center;
+    color: #fff;
+}
+.container {
+}
+.top__title {
+    font-weight: 700;
+    font-size: 96px;
+    margin-bottom: 40px;
+}
+.top__link {
+    font-weight: 700;
+    font-size: 36px;
+    max-width: 430px;
+    display: inline-block;
+    background-color: #151515;
+    padding: 23px;
+    width: 100%;
+}
 /* ================================= */
 /* ================================= */
 /* ================================= */
