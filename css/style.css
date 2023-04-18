@@ -13,6 +13,13 @@ body {
     flex-direction: column;
 }
 /* ================================= */
+
+.second__title {
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
 /* ================================= */
 
 .header {
@@ -125,6 +132,35 @@ body {
     bottom: 50px;
 }
 /* ================================= */
+.why-lease {
+    padding: 150px 0;
+}
+.container {
+}
+.why-lease__body {
+}
+.why-lease__menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    text-align: center;
+}
+.why-lease__list {
+}
+.why-lease__item {
+    max-width: 270px;
+}
+.why-lease__img {
+    margin-bottom: 30px;
+}
+.why-lease__title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 24px;
+}
+.why-lease__text {
+    text-align: left;
+}
 /* ================================= */
 /* ================================= */
 /* ================================= */
