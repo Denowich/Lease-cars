@@ -19,7 +19,11 @@ body {
     background-color: #151515;
 }
 .header-main {
-    /* background-color: transparent; */
+    background-color: transparent;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
 }
 .container {
     max-width: 1230px;
@@ -30,7 +34,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    padding: 40px 45px;
+    padding-top: 40px;
+    padding-bottom: 45px;
 }
 .logo {
 }
@@ -59,10 +64,14 @@ body {
     flex-grow: 1;
 }
 .top {
-    padding-top: 105px;
+    padding-top: 250px;
     padding-bottom: 50px;
     text-align: center;
     color: #fff;
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
 }
 .container {
 }
@@ -80,10 +89,46 @@ body {
     padding: 23px;
     width: 100%;
 }
+
+.slider {}
+.swiper::after {
+    content: '';
+    background: rgba(21, 21, 21, .3);
+    position: absolute;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.swiper-wrapper {
+}
+.swiper-slide {
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.swiper-pagination-bullet {
+    width: 120px;
+    height: 3px;
+    background-color: #151515;
+    opacity: 1;
+    border-radius: 0;
+    margin: 0 15px !important;
+}
+.swiper-pagination-bullet-active {
+    height: 6px;
+    background-color: #fff;
+}
+.swiper-horizontal>.swiper-pagination-bullets {
+    bottom: 50px;
+}
 /* ================================= */
 /* ================================= */
 /* ================================= */
 /* ================================= */
+
 .footer {
     background-color: #151515;
     color: #fff;
