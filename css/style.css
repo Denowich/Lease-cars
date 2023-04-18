@@ -157,6 +157,9 @@ body {
 }
 .footer-menu__link {
 }
+.footer-menu__link:hover {
+    text-decoration: underline;
+}
 
 
 .footer-app__list {
@@ -190,4 +193,7 @@ body {
 .copy-list__item {
 }
 .copy-list__link {
+}
+.copy-list__link:hover {
+    text-decoration: underline;
 }
