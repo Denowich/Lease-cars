@@ -162,6 +162,56 @@ body {
     text-align: left;
 }
 /* ================================= */
+.how-does {
+    padding-bottom: 150px;
+}
+.container {
+}
+.how-does__body {
+    max-width: 600px;
+    margin: 0 auto;
+}
+.how-does__text {
+}
+.how-does__title {
+    font-weight: 700;
+    font-size: 24px;
+    padding-top: 50px;
+}
+.how__does-list {
+    padding: 50px 0 70px;
+    counter-reset: myNumb;
+}
+.how__does-item::before {
+    counter-increment: myNumb;
+    content: counter(myNumb);
+    display: flex;
+    background-color: #30be0d;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 48px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    /* bottom: 0; */
+} 
+.how__does-item {
+    max-width: 270px;
+    padding: 19px 0 19px 240px;
+    box-sizing: content-box;
+    position: relative;
+    margin-left: auto;
+    min-height: 63px;
+}
+.how__does-item + .how__does-item {
+    margin-top: 40px;
+}
 /* ================================= */
 /* ================================= */
 
