@@ -66,6 +66,9 @@ body {
 .menu__link:hover {
     text-decoration: underline;
 }
+.menu__link--active {
+    color: #06f;
+}
 /* ================================= */
 .main {
     flex-grow: 1;
