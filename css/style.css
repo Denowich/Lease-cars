@@ -14,7 +14,7 @@ body {
 }
 /* ================================= */
 
-.second__title {
+.section-title {
     font-weight: 700;
     font-size: 48px;
     text-align: center;
@@ -230,6 +230,26 @@ body {
 .video__content {
     margin: 0 auto;
     display: block;
+}
+
+/* ================================= */
+
+.important {
+}
+.container {
+}
+.important__title {
+    margin-bottom: 20px;
+}
+.important__text {
+}
+.important__items {
+}
+.important__item {
+}
+.important-item__img {
+}
+.impotant-item__text {
 }
 /* ================================= */
 
