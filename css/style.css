@@ -247,10 +247,9 @@ body {
 }
 .important__text {
     max-width: 580px;
-    padding-bottom: 50px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
 }
-.important__items {
+.important__list {
     display: grid;
     grid-template-columns: repeat(4, 1fr) ;
     gap: 40px;
