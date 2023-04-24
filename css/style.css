@@ -474,3 +474,22 @@ body {
 .copy-list__link:hover {
     text-decoration: underline;
 }
+
+/* ============================ */
+
+.menu__btn {
+}
+.menu__btn span {
+}
+
+/* ==========@MEDIA================ */
+
+@media (max-width: 860px) {
+    .menu__btn {}
+}
+
+@media (max-width: 1040px) {   
+}
+
+@media (max-width: 1180px) {
+}
