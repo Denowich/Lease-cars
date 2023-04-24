@@ -234,6 +234,35 @@ body {
     margin: 0 auto;
     display: block;
 }
+
+/* ================================= */
+
+.important {
+    padding-bottom: 150px;
+}
+.container {
+}
+.important__title {
+    margin-bottom: 20px;
+}
+.important__text {
+    max-width: 580px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+}
+.important__items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    gap: 40px;
+}
+.important__item {
+    max-width: 270px;
+}
+.important-item__img {
+    margin-bottom: 20px;
+}
+.impotant-item__text {
+}
 /* ================================= */
 
 /* ================================= */
@@ -473,4 +502,23 @@ body {
 }
 .copy-list__link:hover {
     text-decoration: underline;
+}
+
+/* ============================ */
+
+.menu__btn {
+}
+.menu__btn span {
+}
+
+/* ==========@MEDIA================ */
+
+@media (max-width: 860px) {
+    .menu__btn {}
+}
+
+@media (max-width: 1040px) {   
+}
+
+@media (max-width: 1180px) {
 }
