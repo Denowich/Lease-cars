@@ -388,11 +388,10 @@ body {
 .tabs__content {
 }
 .tabs__content-item {
-    display: grid;
+    display: none;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
     gap: 100px 40px;
-    display: none;
 }   
 .tabs__content-item.tabs__content-item--active {
     display: grid;
