@@ -512,18 +512,29 @@ body {
 /* ============================ */
 
 .menu__btn {
+    width: 30px;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* background-color: transparent; */
 }
 .menu__btn span {
+    height: 2px;
+    padding: 5px 0;
+    color: #fff;
+    /* display: block; */
+    /* gap: 10px; */
 }
 
 /* ==========@MEDIA================ */
 
-@media (max-width: 860px) {
-    .menu__btn {}
+@media (max-width: 1180px) {
 }
 
 @media (max-width: 1040px) {   
 }
-
-@media (max-width: 1180px) {
+@media (max-width: 860px) {
+    .menu__btn {}
 }
+
