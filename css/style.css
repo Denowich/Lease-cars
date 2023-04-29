@@ -516,14 +516,16 @@ body {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    /* background-color: transparent; */
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    display: none;
 }
 .menu__btn span {
     height: 2px;
-    padding: 5px 0;
-    color: #fff;
-    /* display: block; */
-    /* gap: 10px; */
+    background-color: #fff;
+    width: 100%;
 }
 
 /* ==========@MEDIA================ */
@@ -531,9 +533,12 @@ body {
 @media (max-width: 1180px) {
 }
 
-@media (max-width: 1040px) {   
+@media (max-width: 1040px) {
 }
+
 @media (max-width: 860px) {
-    .menu__btn {}
+    .menu__btn {
+        display: flex;
+    }
 }
 
